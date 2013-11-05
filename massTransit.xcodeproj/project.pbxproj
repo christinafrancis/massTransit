@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF4F301C18298A36000D0B29 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF4F301B18298A36000D0B29 /* UIKit.framework */; };
+		CF4F301E18298A36000D0B29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF4F301D18298A36000D0B29 /* Foundation.framework */; };
+		CF4F302018298A36000D0B29 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF4F301F18298A36000D0B29 /* CoreGraphics.framework */; };
+		CF4F302618298A36000D0B29 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF4F302418298A36000D0B29 /* InfoPlist.strings */; };
+		CF4F302818298A36000D0B29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4F302718298A36000D0B29 /* main.m */; };
+		CF4F302C18298A36000D0B29 /* CFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4F302B18298A36000D0B29 /* CFAppDelegate.m */; };
+		CF4F302E18298A36000D0B29 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CF4F302D18298A36000D0B29 /* Default.png */; };
+		CF4F303018298A36000D0B29 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF4F302F18298A36000D0B29 /* Default@2x.png */; };
+		CF4F303218298A36000D0B29 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF4F303118298A36000D0B29 /* Default-568h@2x.png */; };
+		CF4F303518298A36000D0B29 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF4F303318298A36000D0B29 /* MainStoryboard_iPhone.storyboard */; };
+		CF4F303818298A36000D0B29 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF4F303618298A36000D0B29 /* MainStoryboard_iPad.storyboard */; };
+		CF4F303B18298A36000D0B29 /* CFFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4F303A18298A36000D0B29 /* CFFirstViewController.m */; };
+		CF4F303D18298A36000D0B29 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = CF4F303C18298A36000D0B29 /* first.png */; };
+		CF4F303F18298A36000D0B29 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF4F303E18298A36000D0B29 /* first@2x.png */; };
+		CF4F304218298A36000D0B29 /* CFSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4F304118298A36000D0B29 /* CFSecondViewController.m */; };
+		CF4F304418298A36000D0B29 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = CF4F304318298A36000D0B29 /* second.png */; };
+		CF4F304618298A36000D0B29 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF4F304518298A36000D0B29 /* second@2x.png */; };
+		CF4F304E18298A36000D0B29 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF4F304D18298A36000D0B29 /* SenTestingKit.framework */; };
+		CF4F304F18298A36000D0B29 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF4F301B18298A36000D0B29 /* UIKit.framework */; };
+		CF4F305018298A36000D0B29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF4F301D18298A36000D0B29 /* Foundation.framework */; };
+		CF4F305818298A36000D0B29 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF4F305618298A36000D0B29 /* InfoPlist.strings */; };
+		CF4F305B18298A36000D0B29 /* massTransitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4F305A18298A36000D0B29 /* massTransitTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF4F305118298A36000D0B29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF4F301018298A36000D0B29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF4F301718298A36000D0B29;
+			remoteInfo = massTransit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF4F301818298A36000D0B29 /* massTransit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = massTransit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF4F301B18298A36000D0B29 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CF4F301D18298A36000D0B29 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CF4F301F18298A36000D0B29 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CF4F302318298A36000D0B29 /* massTransit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "massTransit-Info.plist"; sourceTree = "<group>"; };
+		CF4F302518298A36000D0B29 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CF4F302718298A36000D0B29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF4F302918298A36000D0B29 /* massTransit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "massTransit-Prefix.pch"; sourceTree = "<group>"; };
+		CF4F302A18298A36000D0B29 /* CFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFAppDelegate.h; sourceTree = "<group>"; };
+		CF4F302B18298A36000D0B29 /* CFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFAppDelegate.m; sourceTree = "<group>"; };
+		CF4F302D18298A36000D0B29 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CF4F302F18298A36000D0B29 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CF4F303118298A36000D0B29 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CF4F303418298A36000D0B29 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		CF4F303718298A36000D0B29 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		CF4F303918298A36000D0B29 /* CFFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFFirstViewController.h; sourceTree = "<group>"; };
+		CF4F303A18298A36000D0B29 /* CFFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFFirstViewController.m; sourceTree = "<group>"; };
+		CF4F303C18298A36000D0B29 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		CF4F303E18298A36000D0B29 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		CF4F304018298A36000D0B29 /* CFSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFSecondViewController.h; sourceTree = "<group>"; };
+		CF4F304118298A36000D0B29 /* CFSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFSecondViewController.m; sourceTree = "<group>"; };
+		CF4F304318298A36000D0B29 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		CF4F304518298A36000D0B29 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		CF4F304C18298A36000D0B29 /* massTransitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = massTransitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF4F304D18298A36000D0B29 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CF4F305518298A36000D0B29 /* massTransitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "massTransitTests-Info.plist"; sourceTree = "<group>"; };
+		CF4F305718298A36000D0B29 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CF4F305918298A36000D0B29 /* massTransitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = massTransitTests.h; sourceTree = "<group>"; };
+		CF4F305A18298A36000D0B29 /* massTransitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = massTransitTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF4F301518298A36000D0B29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF4F301C18298A36000D0B29 /* UIKit.framework in Frameworks */,
+				CF4F301E18298A36000D0B29 /* Foundation.framework in Frameworks */,
+				CF4F302018298A36000D0B29 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF4F304818298A36000D0B29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF4F304E18298A36000D0B29 /* SenTestingKit.framework in Frameworks */,
+				CF4F304F18298A36000D0B29 /* UIKit.framework in Frameworks */,
+				CF4F305018298A36000D0B29 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF4F300F18298A36000D0B29 = {
+			isa = PBXGroup;
+			children = (
+				CF4F302118298A36000D0B29 /* massTransit */,
+				CF4F305318298A36000D0B29 /* massTransitTests */,
+				CF4F301A18298A36000D0B29 /* Frameworks */,
+				CF4F301918298A36000D0B29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF4F301918298A36000D0B29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF4F301818298A36000D0B29 /* massTransit.app */,
+				CF4F304C18298A36000D0B29 /* massTransitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF4F301A18298A36000D0B29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF4F301B18298A36000D0B29 /* UIKit.framework */,
+				CF4F301D18298A36000D0B29 /* Foundation.framework */,
+				CF4F301F18298A36000D0B29 /* CoreGraphics.framework */,
+				CF4F304D18298A36000D0B29 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF4F302118298A36000D0B29 /* massTransit */ = {
+			isa = PBXGroup;
+			children = (
+				CF4F302A18298A36000D0B29 /* CFAppDelegate.h */,
+				CF4F302B18298A36000D0B29 /* CFAppDelegate.m */,
+				CF4F303318298A36000D0B29 /* MainStoryboard_iPhone.storyboard */,
+				CF4F303618298A36000D0B29 /* MainStoryboard_iPad.storyboard */,
+				CF4F303918298A36000D0B29 /* CFFirstViewController.h */,
+				CF4F303A18298A36000D0B29 /* CFFirstViewController.m */,
+				CF4F303C18298A36000D0B29 /* first.png */,
+				CF4F303E18298A36000D0B29 /* first@2x.png */,
+				CF4F304018298A36000D0B29 /* CFSecondViewController.h */,
+				CF4F304118298A36000D0B29 /* CFSecondViewController.m */,
+				CF4F304318298A36000D0B29 /* second.png */,
+				CF4F304518298A36000D0B29 /* second@2x.png */,
+				CF4F302218298A36000D0B29 /* Supporting Files */,
+			);
+			path = massTransit;
+			sourceTree = "<group>";
+		};
+		CF4F302218298A36000D0B29 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF4F302318298A36000D0B29 /* massTransit-Info.plist */,
+				CF4F302418298A36000D0B29 /* InfoPlist.strings */,
+				CF4F302718298A36000D0B29 /* main.m */,
+				CF4F302918298A36000D0B29 /* massTransit-Prefix.pch */,
+				CF4F302D18298A36000D0B29 /* Default.png */,
+				CF4F302F18298A36000D0B29 /* Default@2x.png */,
+				CF4F303118298A36000D0B29 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF4F305318298A36000D0B29 /* massTransitTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF4F305918298A36000D0B29 /* massTransitTests.h */,
+				CF4F305A18298A36000D0B29 /* massTransitTests.m */,
+				CF4F305418298A36000D0B29 /* Supporting Files */,
+			);
+			path = massTransitTests;
+			sourceTree = "<group>";
+		};
+		CF4F305418298A36000D0B29 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF4F305518298A36000D0B29 /* massTransitTests-Info.plist */,
+				CF4F305618298A36000D0B29 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF4F301718298A36000D0B29 /* massTransit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF4F305E18298A36000D0B29 /* Build configuration list for PBXNativeTarget "massTransit" */;
+			buildPhases = (
+				CF4F301418298A36000D0B29 /* Sources */,
+				CF4F301518298A36000D0B29 /* Frameworks */,
+				CF4F301618298A36000D0B29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = massTransit;
+			productName = massTransit;
+			productReference = CF4F301818298A36000D0B29 /* massTransit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF4F304B18298A36000D0B29 /* massTransitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF4F306118298A36000D0B29 /* Build configuration list for PBXNativeTarget "massTransitTests" */;
+			buildPhases = (
+				CF4F304718298A36000D0B29 /* Sources */,
+				CF4F304818298A36000D0B29 /* Frameworks */,
+				CF4F304918298A36000D0B29 /* Resources */,
+				CF4F304A18298A36000D0B29 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF4F305218298A36000D0B29 /* PBXTargetDependency */,
+			);
+			name = massTransitTests;
+			productName = massTransitTests;
+			productReference = CF4F304C18298A36000D0B29 /* massTransitTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF4F301018298A36000D0B29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CF;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Christina Francis";
+			};
+			buildConfigurationList = CF4F301318298A36000D0B29 /* Build configuration list for PBXProject "massTransit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF4F300F18298A36000D0B29;
+			productRefGroup = CF4F301918298A36000D0B29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF4F301718298A36000D0B29 /* massTransit */,
+				CF4F304B18298A36000D0B29 /* massTransitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF4F301618298A36000D0B29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF4F302618298A36000D0B29 /* InfoPlist.strings in Resources */,
+				CF4F302E18298A36000D0B29 /* Default.png in Resources */,
+				CF4F303018298A36000D0B29 /* Default@2x.png in Resources */,
+				CF4F303218298A36000D0B29 /* Default-568h@2x.png in Resources */,
+				CF4F303518298A36000D0B29 /* MainStoryboard_iPhone.storyboard in Resources */,
+				CF4F303818298A36000D0B29 /* MainStoryboard_iPad.storyboard in Resources */,
+				CF4F303D18298A36000D0B29 /* first.png in Resources */,
+				CF4F303F18298A36000D0B29 /* first@2x.png in Resources */,
+				CF4F304418298A36000D0B29 /* second.png in Resources */,
+				CF4F304618298A36000D0B29 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF4F304918298A36000D0B29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF4F305818298A36000D0B29 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CF4F304A18298A36000D0B29 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF4F301418298A36000D0B29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF4F302818298A36000D0B29 /* main.m in Sources */,
+				CF4F302C18298A36000D0B29 /* CFAppDelegate.m in Sources */,
+				CF4F303B18298A36000D0B29 /* CFFirstViewController.m in Sources */,
+				CF4F304218298A36000D0B29 /* CFSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF4F304718298A36000D0B29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF4F305B18298A36000D0B29 /* massTransitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF4F305218298A36000D0B29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF4F301718298A36000D0B29 /* massTransit */;
+			targetProxy = CF4F305118298A36000D0B29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF4F302418298A36000D0B29 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF4F302518298A36000D0B29 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CF4F303318298A36000D0B29 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF4F303418298A36000D0B29 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		CF4F303618298A36000D0B29 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF4F303718298A36000D0B29 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		CF4F305618298A36000D0B29 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF4F305718298A36000D0B29 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF4F305C18298A36000D0B29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF4F305D18298A36000D0B29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF4F305F18298A36000D0B29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "massTransit/massTransit-Prefix.pch";
+				INFOPLIST_FILE = "massTransit/massTransit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CF4F306018298A36000D0B29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "massTransit/massTransit-Prefix.pch";
+				INFOPLIST_FILE = "massTransit/massTransit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CF4F306218298A36000D0B29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/massTransit.app/massTransit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "massTransit/massTransit-Prefix.pch";
+				INFOPLIST_FILE = "massTransitTests/massTransitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CF4F306318298A36000D0B29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/massTransit.app/massTransit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "massTransit/massTransit-Prefix.pch";
+				INFOPLIST_FILE = "massTransitTests/massTransitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF4F301318298A36000D0B29 /* Build configuration list for PBXProject "massTransit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF4F305C18298A36000D0B29 /* Debug */,
+				CF4F305D18298A36000D0B29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF4F305E18298A36000D0B29 /* Build configuration list for PBXNativeTarget "massTransit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF4F305F18298A36000D0B29 /* Debug */,
+				CF4F306018298A36000D0B29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF4F306118298A36000D0B29 /* Build configuration list for PBXNativeTarget "massTransitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF4F306218298A36000D0B29 /* Debug */,
+				CF4F306318298A36000D0B29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF4F301018298A36000D0B29 /* Project object */;
+}
