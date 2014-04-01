@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <sqlite3.h>
+#import "octa_db.h"
 
 @interface CFFirstViewController : UIViewController
 

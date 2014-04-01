@@ -1,87 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2837" systemVersion="12A269" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="4">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12F37" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="4">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1921"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
     <scenes>
-        <!--class Prefix:identifier First View Controller - First-->
-        <scene sceneID="11">
-            <objects>
-                <viewController title="First" id="2" customClass="CFFirstViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="16">
-                        <rect key="frame" x="0.0" y="20" width="320" height="499"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="First View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="20">
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" minimumZoomScale="0.0" maximumZoomScale="0.0" bouncesZoom="NO" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="21">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="88" id="Ikv-jk-tyi"/>
-                                </constraints>
-                                <string key="text">Loaded by the first view controller — an instance of CFFirstViewController — specified in the app delegate.</string>
-                                <fontDescription key="fontDescription" type="system" size="system"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstAttribute="trailing" secondItem="21" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="QBg-X6-fBV"/>
-                            <constraint firstAttribute="trailing" secondItem="20" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="Qxj-1L-2Yh"/>
-                            <constraint firstItem="20" firstAttribute="leading" secondItem="16" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="Ty9-wx-CyI"/>
-                            <constraint firstItem="21" firstAttribute="leading" secondItem="16" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="Zmm-k2-2L7"/>
-                            <constraint firstItem="21" firstAttribute="top" secondItem="20" secondAttribute="bottom" constant="40" type="user" id="jX0-Wi-kmb"/>
-                            <constraint firstAttribute="centerY" secondItem="21" secondAttribute="centerY" type="user" id="yWk-L2-m9F"/>
-                        </constraints>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="First" image="first" id="7"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="10" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="653" y="-138"/>
-        </scene>
-        <!--class Prefix:identifier Second View Controller - Second-->
-        <scene sceneID="13">
-            <objects>
-                <viewController title="Second" id="3" customClass="CFSecondViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="17">
-                        <rect key="frame" x="0.0" y="20" width="320" height="499"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Second View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="22">
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" minimumZoomScale="0.0" maximumZoomScale="0.0" bouncesZoom="NO" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="23">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="88" id="cQR-IW-sY8"/>
-                                </constraints>
-                                <string key="text">Loaded by the second view controller — an instance of CFSecondViewController — specified in the app delegate.</string>
-                                <fontDescription key="fontDescription" type="system" size="system"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="22" firstAttribute="leading" secondItem="17" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="0q6-IA-e8m"/>
-                            <constraint firstAttribute="trailing" secondItem="23" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="fR4-wH-Ih7"/>
-                            <constraint firstItem="23" firstAttribute="leading" secondItem="17" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="fzb-YA-SeR"/>
-                            <constraint firstAttribute="centerY" secondItem="23" secondAttribute="centerY" type="user" id="llH-eD-iPS"/>
-                            <constraint firstAttribute="trailing" secondItem="22" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="pc3-9Y-W42"/>
-                            <constraint firstItem="23" firstAttribute="top" secondItem="22" secondAttribute="bottom" constant="40" type="user" id="yUx-Ee-KEk"/>
-                        </constraints>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Second" image="second" id="6"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="12" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="653" y="498"/>
-        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="15">
             <objects>
@@ -93,22 +15,482 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="2" kind="relationship" relationship="viewControllers" id="26"/>
-                        <segue destination="3" kind="relationship" relationship="viewControllers" id="27"/>
+                        <segue destination="C1W-p4-G48" kind="relationship" relationship="viewControllers" id="csI-1u-5Mv"/>
+                        <segue destination="7z8-H1-fHV" kind="relationship" relationship="viewControllers" id="vSu-hV-fMa"/>
+                        <segue destination="dkb-9A-RZ6" kind="relationship" relationship="viewControllers" id="Jcl-nV-RXf"/>
+                        <segue destination="huT-tS-ffg" kind="relationship" relationship="viewControllers" id="rZv-8z-ycc"/>
+                        <segue destination="tIC-AY-RAD" kind="relationship" relationship="viewControllers" id="3Lh-13-T32"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="14" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="132" y="180"/>
         </scene>
+        <!--Octa routes vc - All Bus Routes-->
+        <scene sceneID="5YG-Dm-m9Z">
+            <objects>
+                <tableViewController id="HHk-JI-teC" customClass="octa_routes_vc" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="9Ay-aw-j0v">
+                        <rect key="frame" x="0.0" y="64" width="320" height="367"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="MyCellIdentifier" textLabel="oO3-TH-IO8" detailTextLabel="PyJ-jO-Lxc" style="IBUITableViewCellStyleSubtitle" id="rZr-ii-43R">
+                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="300" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oO3-TH-IO8">
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PyJ-jO-Lxc">
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <color key="textColor" red="0.50196078431372548" green="0.50196078431372548" blue="0.50196078431372548" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <connections>
+                                    <segue destination="yL3-Ex-EmL" kind="push" identifier="octa_r_s" id="Nsh-h6-0fj"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="HHk-JI-teC" id="mY6-zR-WMx"/>
+                            <outlet property="delegate" destination="HHk-JI-teC" id="mBQ-rA-j9g"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="All Bus Routes" id="Hre-kb-Prh"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kS1-Fs-DhF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1020" y="180"/>
+        </scene>
+        <!--Octa stops vc - Bus Stops in selected route-->
+        <scene sceneID="ECf-MR-X5y">
+            <objects>
+                <tableViewController id="yL3-Ex-EmL" customClass="octa_stops_vc" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="SXW-Jc-KF6">
+                        <rect key="frame" x="0.0" y="64" width="320" height="367"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="MyCellIdentifier_st" textLabel="QyF-M1-JR8" detailTextLabel="lJc-Co-EEB" style="IBUITableViewCellStyleSubtitle" id="raN-DX-h00">
+                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="300" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QyF-M1-JR8">
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lJc-Co-EEB">
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <color key="textColor" red="0.50196078431372548" green="0.50196078431372548" blue="0.50196078431372548" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <connections>
+                                    <segue destination="taT-vT-F4O" kind="push" identifier="octa_s_map" id="QPf-bT-BIx"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="yL3-Ex-EmL" id="afA-xS-Rdx"/>
+                            <outlet property="delegate" destination="yL3-Ex-EmL" id="UQv-Bd-lmg"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Bus Stops in selected route" id="m6C-6a-4tq"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fzx-ZX-iFk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1450" y="125"/>
+        </scene>
+        <!--Octa map vc - Schedule and Stop Location-->
+        <scene sceneID="Eb1-Ks-PXI">
+            <objects>
+                <viewController id="taT-vT-F4O" customClass="octa_map_vc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8Ho-dR-1AK">
+                        <rect key="frame" x="0.0" y="64" width="320" height="367"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="590" verticalHuggingPriority="653" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="5Uu-Ck-qup">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="139" id="Bj1-gW-H92"/>
+                                </constraints>
+                            </mapView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="X6J-EU-5NR">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="160" id="mO4-6q-Xc6"/>
+                                    <constraint firstAttribute="height" constant="331" id="n2r-lp-SIW"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="dataSource" destination="taT-vT-F4O" id="B5a-Nc-z7O"/>
+                                    <outlet property="delegate" destination="taT-vT-F4O" id="dd0-Pf-YrQ"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="5Uu-Ck-qup" firstAttribute="leading" secondItem="X6J-EU-5NR" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="5sd-8g-vw5"/>
+                            <constraint firstItem="X6J-EU-5NR" firstAttribute="leading" secondItem="8Ho-dR-1AK" secondAttribute="leading" constant="5" id="Cse-re-lSv"/>
+                            <constraint firstItem="5Uu-Ck-qup" firstAttribute="top" secondItem="8Ho-dR-1AK" secondAttribute="top" constant="20" symbolic="YES" type="default" id="LC2-wq-7iK"/>
+                            <constraint firstItem="X6J-EU-5NR" firstAttribute="top" secondItem="8Ho-dR-1AK" secondAttribute="top" constant="20" symbolic="YES" type="default" id="Zf5-Uc-uLR"/>
+                            <constraint firstItem="X6J-EU-5NR" firstAttribute="bottom" secondItem="5Uu-Ck-qup" secondAttribute="bottom" type="default" id="cs5-cA-gTS"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Schedule and Stop Location" id="4ob-jx-PWo"/>
+                    <connections>
+                        <outlet property="map" destination="5Uu-Ck-qup" id="8AI-u4-vlO"/>
+                        <outlet property="times" destination="X6J-EU-5NR" id="kvN-e1-3BD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CR4-CI-KTP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1917" y="135"/>
+        </scene>
+        <!--OctaPDF View Controller - Octa Map-->
+        <scene sceneID="c9G-Ct-e9F">
+            <objects>
+                <viewController id="C1W-p4-G48" customClass="octa_PDFViewController" sceneMemberID="viewController">
+                    <scrollView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" minimumZoomScale="0.25" maximumZoomScale="4" id="TT4-aL-8Y7" customClass="PDFScrollView">
+                        <rect key="frame" x="0.0" y="20" width="320" height="411"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    </scrollView>
+                    <tabBarItem key="tabBarItem" title="Octa Map" image="first.png" id="zX0-pI-LI6"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IrE-1U-0VR" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="46" y="-391"/>
+        </scene>
+        <!--MetroPDF View Controller - Metrolink Map-->
+        <scene sceneID="Mpd-3W-o1Y">
+            <objects>
+                <viewController id="7z8-H1-fHV" customClass="metro_PDFViewController" sceneMemberID="viewController">
+                    <scrollView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" minimumZoomScale="0.25" maximumZoomScale="4" id="Duk-2m-c2X" customClass="PDFScrollView">
+                        <rect key="frame" x="0.0" y="20" width="320" height="411"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    </scrollView>
+                    <tabBarItem key="tabBarItem" title="Metrolink Map" image="first.png" id="Ssm-XP-gck"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Uo-71-R44" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="384" y="-391"/>
+        </scene>
+        <!--Navigation Controller - Octa Info-->
+        <scene sceneID="EpL-SI-qRR">
+            <objects>
+                <navigationController id="dkb-9A-RZ6" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Octa Info" image="first.png" id="ruY-vG-s2l"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="x69-t7-N4n">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="HHk-JI-teC" kind="relationship" relationship="rootViewController" id="GS1-UV-8BL"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4cR-0G-d0W" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="625" y="180"/>
+        </scene>
+        <!--Twitter vc - Twitter Feeds-->
+        <scene sceneID="2PI-3O-si9">
+            <objects>
+                <viewController id="tIC-AY-RAD" customClass="twitter_vc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tOK-sC-cqy">
+                        <rect key="frame" x="0.0" y="20" width="320" height="411"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="85" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="evs-RY-prp">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="190" id="4Cd-dc-Z6l"/>
+                                    <constraint firstAttribute="width" constant="297" id="pfx-fr-7iZ"/>
+                                </constraints>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="MyCellIdentifier" textLabel="E57-OW-SdP" rowHeight="85" style="IBUITableViewCellStyleDefault" id="0qS-3q-Xb6">
+                                        <rect key="frame" x="0.0" y="22" width="297" height="85"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="297" height="84"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" enabled="NO" preferredMaxLayoutWidth="277" translatesAutoresizingMaskIntoConstraints="NO" id="E57-OW-SdP">
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="11"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="92" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="oTd-Ak-lcR">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="190" id="FJA-Sx-S6P"/>
+                                </constraints>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="MyCellIdentifier" textLabel="cpG-1x-kRJ" rowHeight="92" style="IBUITableViewCellStyleDefault" id="qF1-rj-YHK">
+                                        <rect key="frame" x="0.0" y="22" width="297" height="92"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="297" height="91"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" horizontalCompressionResistancePriority="702" verticalCompressionResistancePriority="734" text="Title" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" enabled="NO" preferredMaxLayoutWidth="277" id="cpG-1x-kRJ">
+                                                    <rect key="frame" x="10" y="0.0" width="277" height="91"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="11"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="evs-RY-prp" firstAttribute="centerX" secondItem="tOK-sC-cqy" secondAttribute="centerX" type="default" id="Adb-vO-bDQ"/>
+                            <constraint firstItem="evs-RY-prp" firstAttribute="top" secondItem="tOK-sC-cqy" secondAttribute="top" constant="20" symbolic="YES" type="default" id="JYb-sA-MlF"/>
+                            <constraint firstItem="oTd-Ak-lcR" firstAttribute="trailing" secondItem="evs-RY-prp" secondAttribute="trailing" type="default" id="Jku-BI-R5S"/>
+                            <constraint firstAttribute="bottom" secondItem="oTd-Ak-lcR" secondAttribute="bottom" constant="37" id="JnT-jj-JFe"/>
+                            <constraint firstItem="oTd-Ak-lcR" firstAttribute="leading" secondItem="evs-RY-prp" secondAttribute="leading" type="default" id="eCU-bq-XpX"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Twitter Feeds" image="first.png" id="oSN-Eq-Zqs"/>
+                    <connections>
+                        <outlet property="metro_tweets" destination="oTd-Ak-lcR" id="bT6-VZ-KdZ"/>
+                        <outlet property="octa_tweets" destination="evs-RY-prp" id="s7c-8U-lT0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0rS-FO-MxR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="163" y="809"/>
+        </scene>
+        <!--Metro routes vc - All Routes-->
+        <scene sceneID="6oK-By-Lld">
+            <objects>
+                <tableViewController id="EQO-cO-XI8" customClass="metro_routes_vc" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="TQE-kr-bhT">
+                        <rect key="frame" x="0.0" y="64" width="320" height="367"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="MyCellIdentifier" textLabel="T1Q-gf-guc" style="IBUITableViewCellStyleDefault" id="Im7-40-f9H">
+                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="300" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="T1Q-gf-guc">
+                                            <rect key="frame" x="10" y="0.0" width="280" height="43"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <connections>
+                                    <segue destination="dj3-sv-Buu" kind="push" identifier="metro_r_s" id="5e5-ln-kW6"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="EQO-cO-XI8" id="qIY-2G-VpY"/>
+                            <outlet property="delegate" destination="EQO-cO-XI8" id="XGb-wN-he9"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="All Routes" id="wRZ-3a-Od4"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T2l-f5-2l0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1020" y="770"/>
+        </scene>
+        <!--Metro stops vc - Stops in route selected -->
+        <scene sceneID="jyP-LI-p1E">
+            <objects>
+                <tableViewController id="dj3-sv-Buu" customClass="metro_stops_vc" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="RMZ-yH-b1J">
+                        <rect key="frame" x="0.0" y="64" width="320" height="367"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="MyCellIdentifier_st" textLabel="ybZ-xt-kUl" detailTextLabel="hRF-6c-Hff" style="IBUITableViewCellStyleSubtitle" id="Xka-X6-8Bg">
+                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="300" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ybZ-xt-kUl">
+                                            <rect key="frame" x="10" y="2" width="38" height="22"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hRF-6c-Hff">
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <color key="textColor" red="0.50196078431372548" green="0.50196078431372548" blue="0.50196078431372548" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <connections>
+                                    <segue destination="VQv-ry-Z18" kind="push" identifier="metro_s_map" id="Ofk-5n-AWG"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="dj3-sv-Buu" id="XEg-GK-DQS"/>
+                            <outlet property="delegate" destination="dj3-sv-Buu" id="BfT-UJ-t0K"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Stops in route selected " id="epe-OF-OJv"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l7H-x1-EqW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1418" y="765"/>
+        </scene>
+        <!--Metro map vc - Schedule and Stop location-->
+        <scene sceneID="Sp6-KG-B17">
+            <objects>
+                <viewController id="VQv-ry-Z18" customClass="metro_map_vc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iKA-Kx-RPc">
+                        <rect key="frame" x="0.0" y="64" width="320" height="367"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="590" verticalHuggingPriority="653" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="gQg-cd-DrC">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="139" id="MyY-Ng-tQd"/>
+                                </constraints>
+                            </mapView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="r8F-ox-Qnj">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="160" id="Lxa-5f-WYS"/>
+                                    <constraint firstAttribute="height" constant="331" id="csC-iX-q9j"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="dataSource" destination="VQv-ry-Z18" id="p5R-8d-JCH"/>
+                                    <outlet property="delegate" destination="VQv-ry-Z18" id="2ZS-xT-kSf"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gQg-cd-DrC" firstAttribute="top" secondItem="iKA-Kx-RPc" secondAttribute="top" constant="20" symbolic="YES" type="default" id="2fh-DW-va3"/>
+                            <constraint firstItem="r8F-ox-Qnj" firstAttribute="bottom" secondItem="gQg-cd-DrC" secondAttribute="bottom" type="default" id="D0Q-im-ObE"/>
+                            <constraint firstItem="r8F-ox-Qnj" firstAttribute="leading" secondItem="iKA-Kx-RPc" secondAttribute="leading" constant="5" id="Fgk-5o-Vs2"/>
+                            <constraint firstItem="gQg-cd-DrC" firstAttribute="leading" secondItem="r8F-ox-Qnj" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="LSM-4m-Kku"/>
+                            <constraint firstItem="r8F-ox-Qnj" firstAttribute="top" secondItem="iKA-Kx-RPc" secondAttribute="top" constant="20" symbolic="YES" type="default" id="hK5-qU-odV"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Schedule and Stop location" id="jRf-eV-EEw"/>
+                    <connections>
+                        <outlet property="map" destination="gQg-cd-DrC" id="XNX-Vh-XW0"/>
+                        <outlet property="times" destination="r8F-ox-Qnj" id="4Qn-vg-cHh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yr9-Jy-zFd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1923" y="734"/>
+        </scene>
+        <!--Navigation Controller - Metrolink Info-->
+        <scene sceneID="C0t-uh-38c">
+            <objects>
+                <navigationController id="huT-tS-ffg" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Metrolink Info" image="first.png" id="KJC-dc-qNK"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="bPm-KH-5ys">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="EQO-cO-XI8" kind="relationship" relationship="rootViewController" id="fjK-g0-ySi"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8z6-w4-e5h" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="625" y="765"/>
+        </scene>
     </scenes>
     <resources>
-        <image name="first" width="16" height="16"/>
-        <image name="second" width="16" height="16"/>
+        <image name="first.png" width="30" height="30"/>
     </resources>
+    <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="PDFScrollView" superclassName="UIScrollView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PDFScrollView.h"/>
+        </class>
+        <class className="metro_PDFViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/metro_PDFViewController.h"/>
+        </class>
+        <class className="metro_map_vc" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/metro_map_vc.h"/>
+            <relationships>
+                <relationship kind="outlet" name="map" candidateClass="MKMapView"/>
+                <relationship kind="outlet" name="times" candidateClass="UITableView"/>
+            </relationships>
+        </class>
+        <class className="metro_routes_vc" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/metro_routes_vc.h"/>
+        </class>
+        <class className="metro_stops_vc" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/metro_stops_vc.h"/>
+        </class>
+        <class className="octa_PDFViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/octa_PDFViewController.h"/>
+        </class>
+        <class className="octa_map_vc" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/octa_map_vc.h"/>
+            <relationships>
+                <relationship kind="outlet" name="map" candidateClass="MKMapView"/>
+                <relationship kind="outlet" name="times" candidateClass="UITableView"/>
+            </relationships>
+        </class>
+        <class className="octa_routes_vc" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/octa_routes_vc.h"/>
+        </class>
+        <class className="octa_stops_vc" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/octa_stops_vc.h"/>
+        </class>
+        <class className="twitter_vc" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/twitter_vc.h"/>
+            <relationships>
+                <relationship kind="action" name="post:"/>
+                <relationship kind="outlet" name="metro_tweets" candidateClass="UITableView"/>
+                <relationship kind="outlet" name="octa_tweets" candidateClass="UITableView"/>
+            </relationships>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4"/>
+        <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
 </document>

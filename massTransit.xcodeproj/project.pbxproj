@@ -18,10 +18,8 @@
 		CF4F303218298A36000D0B29 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF4F303118298A36000D0B29 /* Default-568h@2x.png */; };
 		CF4F303518298A36000D0B29 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF4F303318298A36000D0B29 /* MainStoryboard_iPhone.storyboard */; };
 		CF4F303818298A36000D0B29 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF4F303618298A36000D0B29 /* MainStoryboard_iPad.storyboard */; };
-		CF4F303B18298A36000D0B29 /* CFFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4F303A18298A36000D0B29 /* CFFirstViewController.m */; };
 		CF4F303D18298A36000D0B29 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = CF4F303C18298A36000D0B29 /* first.png */; };
 		CF4F303F18298A36000D0B29 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF4F303E18298A36000D0B29 /* first@2x.png */; };
-		CF4F304218298A36000D0B29 /* CFSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4F304118298A36000D0B29 /* CFSecondViewController.m */; };
 		CF4F304418298A36000D0B29 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = CF4F304318298A36000D0B29 /* second.png */; };
 		CF4F304618298A36000D0B29 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF4F304518298A36000D0B29 /* second@2x.png */; };
 		CF4F304E18298A36000D0B29 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF4F304D18298A36000D0B29 /* SenTestingKit.framework */; };
@@ -29,6 +27,58 @@
 		CF4F305018298A36000D0B29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF4F301D18298A36000D0B29 /* Foundation.framework */; };
 		CF4F305818298A36000D0B29 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF4F305618298A36000D0B29 /* InfoPlist.strings */; };
 		CF4F305B18298A36000D0B29 /* massTransitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4F305A18298A36000D0B29 /* massTransitTests.m */; };
+		CFAF7A5E182AC12E0047A0A9 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CFAF7A5D182AC12E0047A0A9 /* libsqlite3.dylib */; };
+		CFAF7A61182AC2200047A0A9 /* octa_db.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAF7A60182AC2200047A0A9 /* octa_db.m */; };
+		CFAF7A62182AC2200047A0A9 /* octa_db.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAF7A60182AC2200047A0A9 /* octa_db.m */; };
+		CFAF7A64182ACACB0047A0A9 /* octa_sysmapoct13.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CFAF7A63182ACACB0047A0A9 /* octa_sysmapoct13.pdf */; };
+		CFAF7A65182ACACB0047A0A9 /* octa_sysmapoct13.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CFAF7A63182ACACB0047A0A9 /* octa_sysmapoct13.pdf */; };
+		CFAF7A6C182B38390047A0A9 /* PDFScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAF7A67182B38390047A0A9 /* PDFScrollView.m */; };
+		CFAF7A6D182B38390047A0A9 /* PDFScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAF7A67182B38390047A0A9 /* PDFScrollView.m */; };
+		CFAF7A6E182B38390047A0A9 /* TiledPDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAF7A69182B38390047A0A9 /* TiledPDFView.m */; };
+		CFAF7A6F182B38390047A0A9 /* TiledPDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAF7A69182B38390047A0A9 /* TiledPDFView.m */; };
+		CFAF7A70182B38390047A0A9 /* octa_PDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAF7A6B182B38390047A0A9 /* octa_PDFViewController.m */; };
+		CFAF7A71182B38390047A0A9 /* octa_PDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAF7A6B182B38390047A0A9 /* octa_PDFViewController.m */; };
+		CFAF7A73182B3A2E0047A0A9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFAF7A72182B3A2E0047A0A9 /* QuartzCore.framework */; };
+		CFAF7A7A182B41200047A0A9 /* metro_PDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAF7A79182B41200047A0A9 /* metro_PDFViewController.m */; };
+		CFAF7A7B182B41200047A0A9 /* metro_PDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAF7A79182B41200047A0A9 /* metro_PDFViewController.m */; };
+		CFAF7A7F182C458D0047A0A9 /* gtdf_db.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAF7A7E182C458D0047A0A9 /* gtdf_db.m */; };
+		CFAF7A80182C458D0047A0A9 /* gtdf_db.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAF7A7E182C458D0047A0A9 /* gtdf_db.m */; };
+		CFAF7A8C182C48CE0047A0A9 /* octa_routes_vc.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAF7A8B182C48CE0047A0A9 /* octa_routes_vc.m */; };
+		CFAF7A8D182C48CE0047A0A9 /* octa_routes_vc.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAF7A8B182C48CE0047A0A9 /* octa_routes_vc.m */; };
+		CFAF7A8F182C58050047A0A9 /* metrolink_system_map.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CFAF7A8E182C58050047A0A9 /* metrolink_system_map.pdf */; };
+		CFAF7A90182C58050047A0A9 /* metrolink_system_map.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CFAF7A8E182C58050047A0A9 /* metrolink_system_map.pdf */; };
+		CFAF7A92182C58930047A0A9 /* Metrolink.sl3 in Resources */ = {isa = PBXBuildFile; fileRef = CFAF7A91182C58930047A0A9 /* Metrolink.sl3 */; };
+		CFAF7A93182C58930047A0A9 /* Metrolink.sl3 in Resources */ = {isa = PBXBuildFile; fileRef = CFAF7A91182C58930047A0A9 /* Metrolink.sl3 */; };
+		CFAF7A95182C58DF0047A0A9 /* OCTA.sl3 in Resources */ = {isa = PBXBuildFile; fileRef = CFAF7A94182C58DF0047A0A9 /* OCTA.sl3 */; };
+		CFAF7A96182C58DF0047A0A9 /* OCTA.sl3 in Resources */ = {isa = PBXBuildFile; fileRef = CFAF7A94182C58DF0047A0A9 /* OCTA.sl3 */; };
+		CFAF7A99182C5CB80047A0A9 /* transit_data.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAF7A98182C5CB80047A0A9 /* transit_data.m */; };
+		CFAF7A9A182C5CB80047A0A9 /* transit_data.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAF7A98182C5CB80047A0A9 /* transit_data.m */; };
+		CFAF7AAA182F395A0047A0A9 /* octa_stops_vc.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAF7AA9182F395A0047A0A9 /* octa_stops_vc.m */; };
+		CFAF7AAB182F395A0047A0A9 /* octa_stops_vc.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAF7AA9182F395A0047A0A9 /* octa_stops_vc.m */; };
+		CFAF7AB5183027DF0047A0A9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFAF7AB4183027DF0047A0A9 /* CoreLocation.framework */; };
+		CFAF7AB7183028040047A0A9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFAF7AB6183028040047A0A9 /* MapKit.framework */; };
+		CFAF7ABA18303B490047A0A9 /* octa_map_vc.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAF7AB918303B490047A0A9 /* octa_map_vc.m */; };
+		CFAF7B0C1832CE260047A0A9 /* metro_db.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAF7B051832CE250047A0A9 /* metro_db.m */; };
+		CFAF7B0D1832CE260047A0A9 /* metro_db.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAF7B051832CE250047A0A9 /* metro_db.m */; };
+		CFAF7B0E1832CE260047A0A9 /* metro_map_vc.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAF7B071832CE250047A0A9 /* metro_map_vc.m */; };
+		CFAF7B0F1832CE260047A0A9 /* metro_map_vc.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAF7B071832CE250047A0A9 /* metro_map_vc.m */; };
+		CFAF7B101832CE260047A0A9 /* metro_routes_vc.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAF7B091832CE260047A0A9 /* metro_routes_vc.m */; };
+		CFAF7B111832CE260047A0A9 /* metro_routes_vc.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAF7B091832CE260047A0A9 /* metro_routes_vc.m */; };
+		CFAF7B121832CE260047A0A9 /* metro_stops_vc.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAF7B0B1832CE260047A0A9 /* metro_stops_vc.m */; };
+		CFAF7B131832CE260047A0A9 /* metro_stops_vc.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAF7B0B1832CE260047A0A9 /* metro_stops_vc.m */; };
+		CFAF7B161832D1AD0047A0A9 /* twitter_vc.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAF7B151832D1AC0047A0A9 /* twitter_vc.m */; };
+		CFAF7B171832D1AD0047A0A9 /* twitter_vc.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAF7B151832D1AC0047A0A9 /* twitter_vc.m */; };
+		CFAF7B191832D1D60047A0A9 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFAF7B181832D1D60047A0A9 /* Twitter.framework */; };
+		CFAF7B1B1832D1DE0047A0A9 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFAF7B1A1832D1DE0047A0A9 /* Social.framework */; };
+		CFAF7B1D1832D2280047A0A9 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFAF7B1C1832D2280047A0A9 /* Accounts.framework */; };
+		CFAF7B301832E2C50047A0A9 /* metro_logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CFAF7B2A1832E2C50047A0A9 /* metro_logo.jpeg */; };
+		CFAF7B311832E2C50047A0A9 /* metro_logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CFAF7B2A1832E2C50047A0A9 /* metro_logo.jpeg */; };
+		CFAF7B321832E2C50047A0A9 /* octa_info.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CFAF7B2B1832E2C50047A0A9 /* octa_info.jpeg */; };
+		CFAF7B331832E2C50047A0A9 /* octa_info.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CFAF7B2B1832E2C50047A0A9 /* octa_info.jpeg */; };
+		CFAF7B3918332CF30047A0A9 /* sat.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CFAF7B3818332CF30047A0A9 /* sat.jpeg */; };
+		CFAF7B3A18332CF30047A0A9 /* sat.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CFAF7B3818332CF30047A0A9 /* sat.jpeg */; };
+		CFAF7B3C18332D080047A0A9 /* sun.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CFAF7B3B18332D080047A0A9 /* sun.jpeg */; };
+		CFAF7B3D18332D080047A0A9 /* sun.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CFAF7B3B18332D080047A0A9 /* sun.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,12 +107,8 @@
 		CF4F303118298A36000D0B29 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		CF4F303418298A36000D0B29 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		CF4F303718298A36000D0B29 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		CF4F303918298A36000D0B29 /* CFFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFFirstViewController.h; sourceTree = "<group>"; };
-		CF4F303A18298A36000D0B29 /* CFFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFFirstViewController.m; sourceTree = "<group>"; };
 		CF4F303C18298A36000D0B29 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		CF4F303E18298A36000D0B29 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		CF4F304018298A36000D0B29 /* CFSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFSecondViewController.h; sourceTree = "<group>"; };
-		CF4F304118298A36000D0B29 /* CFSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFSecondViewController.m; sourceTree = "<group>"; };
 		CF4F304318298A36000D0B29 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		CF4F304518298A36000D0B29 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		CF4F304C18298A36000D0B29 /* massTransitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = massTransitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +117,51 @@
 		CF4F305718298A36000D0B29 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CF4F305918298A36000D0B29 /* massTransitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = massTransitTests.h; sourceTree = "<group>"; };
 		CF4F305A18298A36000D0B29 /* massTransitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = massTransitTests.m; sourceTree = "<group>"; };
+		CFAF7A5D182AC12E0047A0A9 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		CFAF7A5F182AC2200047A0A9 /* octa_db.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = octa_db.h; sourceTree = "<group>"; };
+		CFAF7A60182AC2200047A0A9 /* octa_db.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = octa_db.m; sourceTree = "<group>"; };
+		CFAF7A63182ACACB0047A0A9 /* octa_sysmapoct13.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = octa_sysmapoct13.pdf; sourceTree = "<group>"; };
+		CFAF7A66182B38390047A0A9 /* PDFScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFScrollView.h; sourceTree = "<group>"; };
+		CFAF7A67182B38390047A0A9 /* PDFScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFScrollView.m; sourceTree = "<group>"; };
+		CFAF7A68182B38390047A0A9 /* TiledPDFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiledPDFView.h; sourceTree = "<group>"; };
+		CFAF7A69182B38390047A0A9 /* TiledPDFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiledPDFView.m; sourceTree = "<group>"; };
+		CFAF7A6A182B38390047A0A9 /* octa_PDFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = octa_PDFViewController.h; sourceTree = "<group>"; };
+		CFAF7A6B182B38390047A0A9 /* octa_PDFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = octa_PDFViewController.m; sourceTree = "<group>"; };
+		CFAF7A72182B3A2E0047A0A9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CFAF7A78182B41200047A0A9 /* metro_PDFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = metro_PDFViewController.h; path = ../metro_PDFViewController.h; sourceTree = "<group>"; };
+		CFAF7A79182B41200047A0A9 /* metro_PDFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = metro_PDFViewController.m; path = ../metro_PDFViewController.m; sourceTree = "<group>"; };
+		CFAF7A7D182C458D0047A0A9 /* gtdf_db.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gtdf_db.h; sourceTree = "<group>"; };
+		CFAF7A7E182C458D0047A0A9 /* gtdf_db.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gtdf_db.m; sourceTree = "<group>"; };
+		CFAF7A8A182C48CE0047A0A9 /* octa_routes_vc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = octa_routes_vc.h; sourceTree = "<group>"; };
+		CFAF7A8B182C48CE0047A0A9 /* octa_routes_vc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = octa_routes_vc.m; sourceTree = "<group>"; };
+		CFAF7A8E182C58050047A0A9 /* metrolink_system_map.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = metrolink_system_map.pdf; sourceTree = "<group>"; };
+		CFAF7A91182C58930047A0A9 /* Metrolink.sl3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Metrolink.sl3; sourceTree = "<group>"; };
+		CFAF7A94182C58DF0047A0A9 /* OCTA.sl3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = OCTA.sl3; sourceTree = "<group>"; };
+		CFAF7A97182C5CB80047A0A9 /* transit_data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = transit_data.h; sourceTree = "<group>"; };
+		CFAF7A98182C5CB80047A0A9 /* transit_data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = transit_data.m; sourceTree = "<group>"; };
+		CFAF7AA8182F395A0047A0A9 /* octa_stops_vc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = octa_stops_vc.h; sourceTree = "<group>"; };
+		CFAF7AA9182F395A0047A0A9 /* octa_stops_vc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = octa_stops_vc.m; sourceTree = "<group>"; };
+		CFAF7AB4183027DF0047A0A9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CFAF7AB6183028040047A0A9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		CFAF7AB818303B490047A0A9 /* octa_map_vc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = octa_map_vc.h; sourceTree = "<group>"; };
+		CFAF7AB918303B490047A0A9 /* octa_map_vc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = octa_map_vc.m; sourceTree = "<group>"; };
+		CFAF7B041832CE250047A0A9 /* metro_db.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metro_db.h; sourceTree = "<group>"; };
+		CFAF7B051832CE250047A0A9 /* metro_db.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = metro_db.m; sourceTree = "<group>"; };
+		CFAF7B061832CE250047A0A9 /* metro_map_vc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metro_map_vc.h; sourceTree = "<group>"; };
+		CFAF7B071832CE250047A0A9 /* metro_map_vc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = metro_map_vc.m; sourceTree = "<group>"; };
+		CFAF7B081832CE250047A0A9 /* metro_routes_vc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metro_routes_vc.h; sourceTree = "<group>"; };
+		CFAF7B091832CE260047A0A9 /* metro_routes_vc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = metro_routes_vc.m; sourceTree = "<group>"; };
+		CFAF7B0A1832CE260047A0A9 /* metro_stops_vc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metro_stops_vc.h; sourceTree = "<group>"; };
+		CFAF7B0B1832CE260047A0A9 /* metro_stops_vc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = metro_stops_vc.m; sourceTree = "<group>"; };
+		CFAF7B141832D1AC0047A0A9 /* twitter_vc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = twitter_vc.h; sourceTree = "<group>"; };
+		CFAF7B151832D1AC0047A0A9 /* twitter_vc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = twitter_vc.m; sourceTree = "<group>"; };
+		CFAF7B181832D1D60047A0A9 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		CFAF7B1A1832D1DE0047A0A9 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		CFAF7B1C1832D2280047A0A9 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		CFAF7B2A1832E2C50047A0A9 /* metro_logo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = metro_logo.jpeg; sourceTree = "<group>"; };
+		CFAF7B2B1832E2C50047A0A9 /* octa_info.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = octa_info.jpeg; sourceTree = "<group>"; };
+		CFAF7B3818332CF30047A0A9 /* sat.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sat.jpeg; sourceTree = "<group>"; };
+		CFAF7B3B18332D080047A0A9 /* sun.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sun.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +169,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFAF7B1D1832D2280047A0A9 /* Accounts.framework in Frameworks */,
+				CFAF7B1B1832D1DE0047A0A9 /* Social.framework in Frameworks */,
+				CFAF7B191832D1D60047A0A9 /* Twitter.framework in Frameworks */,
+				CFAF7AB7183028040047A0A9 /* MapKit.framework in Frameworks */,
+				CFAF7AB5183027DF0047A0A9 /* CoreLocation.framework in Frameworks */,
+				CFAF7A73182B3A2E0047A0A9 /* QuartzCore.framework in Frameworks */,
+				CFAF7A5E182AC12E0047A0A9 /* libsqlite3.dylib in Frameworks */,
 				CF4F301C18298A36000D0B29 /* UIKit.framework in Frameworks */,
 				CF4F301E18298A36000D0B29 /* Foundation.framework in Frameworks */,
 				CF4F302018298A36000D0B29 /* CoreGraphics.framework in Frameworks */,
@@ -119,6 +217,13 @@
 		CF4F301A18298A36000D0B29 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CFAF7B1C1832D2280047A0A9 /* Accounts.framework */,
+				CFAF7B1A1832D1DE0047A0A9 /* Social.framework */,
+				CFAF7B181832D1D60047A0A9 /* Twitter.framework */,
+				CFAF7AB6183028040047A0A9 /* MapKit.framework */,
+				CFAF7AB4183027DF0047A0A9 /* CoreLocation.framework */,
+				CFAF7A72182B3A2E0047A0A9 /* QuartzCore.framework */,
+				CFAF7A5D182AC12E0047A0A9 /* libsqlite3.dylib */,
 				CF4F301B18298A36000D0B29 /* UIKit.framework */,
 				CF4F301D18298A36000D0B29 /* Foundation.framework */,
 				CF4F301F18298A36000D0B29 /* CoreGraphics.framework */,
@@ -134,14 +239,13 @@
 				CF4F302B18298A36000D0B29 /* CFAppDelegate.m */,
 				CF4F303318298A36000D0B29 /* MainStoryboard_iPhone.storyboard */,
 				CF4F303618298A36000D0B29 /* MainStoryboard_iPad.storyboard */,
-				CF4F303918298A36000D0B29 /* CFFirstViewController.h */,
-				CF4F303A18298A36000D0B29 /* CFFirstViewController.m */,
-				CF4F303C18298A36000D0B29 /* first.png */,
-				CF4F303E18298A36000D0B29 /* first@2x.png */,
-				CF4F304018298A36000D0B29 /* CFSecondViewController.h */,
-				CF4F304118298A36000D0B29 /* CFSecondViewController.m */,
-				CF4F304318298A36000D0B29 /* second.png */,
-				CF4F304518298A36000D0B29 /* second@2x.png */,
+				CFAF7A97182C5CB80047A0A9 /* transit_data.h */,
+				CFAF7A98182C5CB80047A0A9 /* transit_data.m */,
+				CFAF7B1E1832D2FE0047A0A9 /* twitter_vc */,
+				CFAF7A81182C45AC0047A0A9 /* db */,
+				CFAF7AAF183020810047A0A9 /* map_vc */,
+				CFAF7A7C182B427D0047A0A9 /* PDF_vc */,
+				CFAF7A83182C46C70047A0A9 /* DB_vc */,
 				CF4F302218298A36000D0B29 /* Supporting Files */,
 			);
 			path = massTransit;
@@ -150,12 +254,24 @@
 		CF4F302218298A36000D0B29 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CFAF7B3818332CF30047A0A9 /* sat.jpeg */,
+				CFAF7B3B18332D080047A0A9 /* sun.jpeg */,
+				CFAF7B2A1832E2C50047A0A9 /* metro_logo.jpeg */,
+				CFAF7B2B1832E2C50047A0A9 /* octa_info.jpeg */,
 				CF4F302318298A36000D0B29 /* massTransit-Info.plist */,
 				CF4F302418298A36000D0B29 /* InfoPlist.strings */,
+				CF4F303C18298A36000D0B29 /* first.png */,
+				CF4F303E18298A36000D0B29 /* first@2x.png */,
+				CFAF7A8E182C58050047A0A9 /* metrolink_system_map.pdf */,
+				CF4F304318298A36000D0B29 /* second.png */,
+				CF4F304518298A36000D0B29 /* second@2x.png */,
 				CF4F302718298A36000D0B29 /* main.m */,
 				CF4F302918298A36000D0B29 /* massTransit-Prefix.pch */,
 				CF4F302D18298A36000D0B29 /* Default.png */,
 				CF4F302F18298A36000D0B29 /* Default@2x.png */,
+				CFAF7A63182ACACB0047A0A9 /* octa_sysmapoct13.pdf */,
+				CFAF7A94182C58DF0047A0A9 /* OCTA.sl3 */,
+				CFAF7A91182C58930047A0A9 /* Metrolink.sl3 */,
 				CF4F303118298A36000D0B29 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
@@ -178,6 +294,69 @@
 				CF4F305618298A36000D0B29 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFAF7A7C182B427D0047A0A9 /* PDF_vc */ = {
+			isa = PBXGroup;
+			children = (
+				CFAF7A66182B38390047A0A9 /* PDFScrollView.h */,
+				CFAF7A67182B38390047A0A9 /* PDFScrollView.m */,
+				CFAF7A68182B38390047A0A9 /* TiledPDFView.h */,
+				CFAF7A69182B38390047A0A9 /* TiledPDFView.m */,
+				CFAF7A78182B41200047A0A9 /* metro_PDFViewController.h */,
+				CFAF7A79182B41200047A0A9 /* metro_PDFViewController.m */,
+				CFAF7A6A182B38390047A0A9 /* octa_PDFViewController.h */,
+				CFAF7A6B182B38390047A0A9 /* octa_PDFViewController.m */,
+			);
+			name = PDF_vc;
+			sourceTree = "<group>";
+		};
+		CFAF7A81182C45AC0047A0A9 /* db */ = {
+			isa = PBXGroup;
+			children = (
+				CFAF7A7D182C458D0047A0A9 /* gtdf_db.h */,
+				CFAF7A7E182C458D0047A0A9 /* gtdf_db.m */,
+				CFAF7A5F182AC2200047A0A9 /* octa_db.h */,
+				CFAF7A60182AC2200047A0A9 /* octa_db.m */,
+				CFAF7B041832CE250047A0A9 /* metro_db.h */,
+				CFAF7B051832CE250047A0A9 /* metro_db.m */,
+			);
+			name = db;
+			sourceTree = "<group>";
+		};
+		CFAF7A83182C46C70047A0A9 /* DB_vc */ = {
+			isa = PBXGroup;
+			children = (
+				CFAF7A8A182C48CE0047A0A9 /* octa_routes_vc.h */,
+				CFAF7A8B182C48CE0047A0A9 /* octa_routes_vc.m */,
+				CFAF7AA8182F395A0047A0A9 /* octa_stops_vc.h */,
+				CFAF7AA9182F395A0047A0A9 /* octa_stops_vc.m */,
+				CFAF7B081832CE250047A0A9 /* metro_routes_vc.h */,
+				CFAF7B091832CE260047A0A9 /* metro_routes_vc.m */,
+				CFAF7B0A1832CE260047A0A9 /* metro_stops_vc.h */,
+				CFAF7B0B1832CE260047A0A9 /* metro_stops_vc.m */,
+			);
+			name = DB_vc;
+			sourceTree = "<group>";
+		};
+		CFAF7AAF183020810047A0A9 /* map_vc */ = {
+			isa = PBXGroup;
+			children = (
+				CFAF7AB818303B490047A0A9 /* octa_map_vc.h */,
+				CFAF7AB918303B490047A0A9 /* octa_map_vc.m */,
+				CFAF7B061832CE250047A0A9 /* metro_map_vc.h */,
+				CFAF7B071832CE250047A0A9 /* metro_map_vc.m */,
+			);
+			name = map_vc;
+			sourceTree = "<group>";
+		};
+		CFAF7B1E1832D2FE0047A0A9 /* twitter_vc */ = {
+			isa = PBXGroup;
+			children = (
+				CFAF7B141832D1AC0047A0A9 /* twitter_vc.h */,
+				CFAF7B151832D1AC0047A0A9 /* twitter_vc.m */,
+			);
+			name = twitter_vc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +441,14 @@
 				CF4F303F18298A36000D0B29 /* first@2x.png in Resources */,
 				CF4F304418298A36000D0B29 /* second.png in Resources */,
 				CF4F304618298A36000D0B29 /* second@2x.png in Resources */,
+				CFAF7A64182ACACB0047A0A9 /* octa_sysmapoct13.pdf in Resources */,
+				CFAF7A8F182C58050047A0A9 /* metrolink_system_map.pdf in Resources */,
+				CFAF7A92182C58930047A0A9 /* Metrolink.sl3 in Resources */,
+				CFAF7A95182C58DF0047A0A9 /* OCTA.sl3 in Resources */,
+				CFAF7B301832E2C50047A0A9 /* metro_logo.jpeg in Resources */,
+				CFAF7B321832E2C50047A0A9 /* octa_info.jpeg in Resources */,
+				CFAF7B3918332CF30047A0A9 /* sat.jpeg in Resources */,
+				CFAF7B3C18332D080047A0A9 /* sun.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +457,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF4F305818298A36000D0B29 /* InfoPlist.strings in Resources */,
+				CFAF7A65182ACACB0047A0A9 /* octa_sysmapoct13.pdf in Resources */,
+				CFAF7A90182C58050047A0A9 /* metrolink_system_map.pdf in Resources */,
+				CFAF7A93182C58930047A0A9 /* Metrolink.sl3 in Resources */,
+				CFAF7A96182C58DF0047A0A9 /* OCTA.sl3 in Resources */,
+				CFAF7B311832E2C50047A0A9 /* metro_logo.jpeg in Resources */,
+				CFAF7B331832E2C50047A0A9 /* octa_info.jpeg in Resources */,
+				CFAF7B3A18332CF30047A0A9 /* sat.jpeg in Resources */,
+				CFAF7B3D18332D080047A0A9 /* sun.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,8 +493,21 @@
 			files = (
 				CF4F302818298A36000D0B29 /* main.m in Sources */,
 				CF4F302C18298A36000D0B29 /* CFAppDelegate.m in Sources */,
-				CF4F303B18298A36000D0B29 /* CFFirstViewController.m in Sources */,
-				CF4F304218298A36000D0B29 /* CFSecondViewController.m in Sources */,
+				CFAF7A61182AC2200047A0A9 /* octa_db.m in Sources */,
+				CFAF7A6C182B38390047A0A9 /* PDFScrollView.m in Sources */,
+				CFAF7A6E182B38390047A0A9 /* TiledPDFView.m in Sources */,
+				CFAF7A70182B38390047A0A9 /* octa_PDFViewController.m in Sources */,
+				CFAF7A7A182B41200047A0A9 /* metro_PDFViewController.m in Sources */,
+				CFAF7A7F182C458D0047A0A9 /* gtdf_db.m in Sources */,
+				CFAF7A8C182C48CE0047A0A9 /* octa_routes_vc.m in Sources */,
+				CFAF7A99182C5CB80047A0A9 /* transit_data.m in Sources */,
+				CFAF7AAA182F395A0047A0A9 /* octa_stops_vc.m in Sources */,
+				CFAF7ABA18303B490047A0A9 /* octa_map_vc.m in Sources */,
+				CFAF7B0C1832CE260047A0A9 /* metro_db.m in Sources */,
+				CFAF7B0E1832CE260047A0A9 /* metro_map_vc.m in Sources */,
+				CFAF7B101832CE260047A0A9 /* metro_routes_vc.m in Sources */,
+				CFAF7B121832CE260047A0A9 /* metro_stops_vc.m in Sources */,
+				CFAF7B161832D1AD0047A0A9 /* twitter_vc.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +516,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF4F305B18298A36000D0B29 /* massTransitTests.m in Sources */,
+				CFAF7A62182AC2200047A0A9 /* octa_db.m in Sources */,
+				CFAF7A6D182B38390047A0A9 /* PDFScrollView.m in Sources */,
+				CFAF7A6F182B38390047A0A9 /* TiledPDFView.m in Sources */,
+				CFAF7A71182B38390047A0A9 /* octa_PDFViewController.m in Sources */,
+				CFAF7A7B182B41200047A0A9 /* metro_PDFViewController.m in Sources */,
+				CFAF7A80182C458D0047A0A9 /* gtdf_db.m in Sources */,
+				CFAF7A8D182C48CE0047A0A9 /* octa_routes_vc.m in Sources */,
+				CFAF7A9A182C5CB80047A0A9 /* transit_data.m in Sources */,
+				CFAF7AAB182F395A0047A0A9 /* octa_stops_vc.m in Sources */,
+				CFAF7B0D1832CE260047A0A9 /* metro_db.m in Sources */,
+				CFAF7B0F1832CE260047A0A9 /* metro_map_vc.m in Sources */,
+				CFAF7B111832CE260047A0A9 /* metro_routes_vc.m in Sources */,
+				CFAF7B131832CE260047A0A9 /* metro_stops_vc.m in Sources */,
+				CFAF7B171832D1AD0047A0A9 /* twitter_vc.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,6 +712,7 @@
 				CF4F306018298A36000D0B29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF4F306118298A36000D0B29 /* Build configuration list for PBXNativeTarget "massTransitTests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +721,7 @@
 				CF4F306318298A36000D0B29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
